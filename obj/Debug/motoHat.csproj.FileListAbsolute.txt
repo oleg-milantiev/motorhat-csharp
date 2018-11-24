@@ -1,0 +1,16 @@
+C:\Users\mo\Documents\SharpDevelop Projects\motoHat\bin\Debug\motoHat.exe.config
+C:\Users\mo\Documents\SharpDevelop Projects\motoHat\bin\Debug\motoHat.exe
+C:\Users\mo\Documents\SharpDevelop Projects\motoHat\bin\Debug\motoHat.pdb
+C:\Users\mo\Documents\SharpDevelop Projects\motoHat\obj\Debug\motoHat.csprojResolveAssemblyReference.cache
+C:\Users\mo\Documents\SharpDevelop Projects\motoHat\obj\Debug\motoHat.MainForm.resources
+C:\Users\mo\Documents\SharpDevelop Projects\motoHat\obj\Debug\motoHat.csproj.GenerateResource.Cache
+C:\Users\mo\Documents\SharpDevelop Projects\motoHat\obj\Debug\motoHat.exe
+C:\Users\mo\Documents\SharpDevelop Projects\motoHat\obj\Debug\motoHat.pdb
+C:\files\Продукты\Мотомаска\ED80\csharp\motoHat\obj\Debug\motoHat.csprojResolveAssemblyReference.cache
+C:\files\Продукты\Мотомаска\ED80\csharp\motoHat\obj\Debug\motoHat.MainForm.resources
+C:\files\Продукты\Мотомаска\ED80\csharp\motoHat\obj\Debug\motoHat.csproj.GenerateResource.Cache
+C:\files\Продукты\Мотомаска\ED80\csharp\motoHat\obj\Debug\motoHat.exe
+C:\files\Продукты\Мотомаска\ED80\csharp\motoHat\bin\Debug\motoHat.exe.config
+C:\files\Продукты\Мотомаска\ED80\csharp\motoHat\bin\Debug\motoHat.exe
+C:\files\Продукты\Мотомаска\ED80\csharp\motoHat\bin\Debug\motoHat.pdb
+C:\files\Продукты\Мотомаска\ED80\csharp\motoHat\obj\Debug\motoHat.pdb
