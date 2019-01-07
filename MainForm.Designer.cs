@@ -16,11 +16,13 @@ namespace motoHat
 		private System.ComponentModel.IContainer components = null;
 		private System.Windows.Forms.ComboBox comport;
 		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.Panel panelStatus;
-		private System.Windows.Forms.Label textStatus;
+		private System.Windows.Forms.Panel panelStatus1;
+		private System.Windows.Forms.Label textStatus1;
 		private System.Windows.Forms.Button buttonConnect;
 		private System.Windows.Forms.Button buttonClose;
 		private System.Windows.Forms.Button buttonOpen;
+		private System.Windows.Forms.Panel panelStatus2;
+		private System.Windows.Forms.Label textStatus2;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -45,12 +47,15 @@ namespace motoHat
 		{
 			this.comport = new System.Windows.Forms.ComboBox();
 			this.label1 = new System.Windows.Forms.Label();
-			this.panelStatus = new System.Windows.Forms.Panel();
-			this.textStatus = new System.Windows.Forms.Label();
+			this.panelStatus1 = new System.Windows.Forms.Panel();
+			this.textStatus1 = new System.Windows.Forms.Label();
 			this.buttonConnect = new System.Windows.Forms.Button();
 			this.buttonClose = new System.Windows.Forms.Button();
 			this.buttonOpen = new System.Windows.Forms.Button();
-			this.panelStatus.SuspendLayout();
+			this.panelStatus2 = new System.Windows.Forms.Panel();
+			this.textStatus2 = new System.Windows.Forms.Label();
+			this.panelStatus1.SuspendLayout();
+			this.panelStatus2.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// comport
@@ -58,7 +63,7 @@ namespace motoHat
 			this.comport.FormattingEnabled = true;
 			this.comport.Location = new System.Drawing.Point(131, 15);
 			this.comport.Name = "comport";
-			this.comport.Size = new System.Drawing.Size(121, 24);
+			this.comport.Size = new System.Drawing.Size(251, 24);
 			this.comport.TabIndex = 0;
 			// 
 			// label1
@@ -69,25 +74,25 @@ namespace motoHat
 			this.label1.TabIndex = 1;
 			this.label1.Text = "COM-порт";
 			// 
-			// panelStatus
+			// panelStatus1
 			// 
-			this.panelStatus.Controls.Add(this.textStatus);
-			this.panelStatus.Location = new System.Drawing.Point(131, 56);
-			this.panelStatus.Name = "panelStatus";
-			this.panelStatus.Size = new System.Drawing.Size(129, 38);
-			this.panelStatus.TabIndex = 2;
+			this.panelStatus1.Controls.Add(this.textStatus1);
+			this.panelStatus1.Location = new System.Drawing.Point(131, 56);
+			this.panelStatus1.Name = "panelStatus1";
+			this.panelStatus1.Size = new System.Drawing.Size(115, 38);
+			this.panelStatus1.TabIndex = 2;
 			// 
-			// textStatus
+			// textStatus1
 			// 
-			this.textStatus.Location = new System.Drawing.Point(10, 9);
-			this.textStatus.Name = "textStatus";
-			this.textStatus.Size = new System.Drawing.Size(108, 23);
-			this.textStatus.TabIndex = 0;
-			this.textStatus.Text = "Непонятно";
+			this.textStatus1.Location = new System.Drawing.Point(10, 9);
+			this.textStatus1.Name = "textStatus1";
+			this.textStatus1.Size = new System.Drawing.Size(102, 23);
+			this.textStatus1.TabIndex = 0;
+			this.textStatus1.Text = "Непонятно";
 			// 
 			// buttonConnect
 			// 
-			this.buttonConnect.Location = new System.Drawing.Point(272, 9);
+			this.buttonConnect.Location = new System.Drawing.Point(388, 9);
 			this.buttonConnect.Name = "buttonConnect";
 			this.buttonConnect.Size = new System.Drawing.Size(113, 34);
 			this.buttonConnect.TabIndex = 3;
@@ -97,7 +102,7 @@ namespace motoHat
 			// 
 			// buttonClose
 			// 
-			this.buttonClose.Location = new System.Drawing.Point(272, 56);
+			this.buttonClose.Location = new System.Drawing.Point(388, 56);
 			this.buttonClose.Name = "buttonClose";
 			this.buttonClose.Size = new System.Drawing.Size(113, 34);
 			this.buttonClose.TabIndex = 5;
@@ -115,22 +120,43 @@ namespace motoHat
 			this.buttonOpen.UseVisualStyleBackColor = true;
 			this.buttonOpen.Click += new System.EventHandler(this.ButtonOpenClick);
 			// 
+			// panelStatus2
+			// 
+			this.panelStatus2.Controls.Add(this.textStatus2);
+			this.panelStatus2.Location = new System.Drawing.Point(267, 56);
+			this.panelStatus2.Name = "panelStatus2";
+			this.panelStatus2.Size = new System.Drawing.Size(115, 38);
+			this.panelStatus2.TabIndex = 7;
+			// 
+			// textStatus2
+			// 
+			this.textStatus2.Location = new System.Drawing.Point(10, 9);
+			this.textStatus2.Name = "textStatus2";
+			this.textStatus2.Size = new System.Drawing.Size(102, 23);
+			this.textStatus2.TabIndex = 0;
+			this.textStatus2.Text = "Непонятно";
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(408, 106);
+			this.AutoSize = true;
+			this.ClientSize = new System.Drawing.Size(513, 106);
+			this.Controls.Add(this.panelStatus2);
 			this.Controls.Add(this.buttonOpen);
 			this.Controls.Add(this.buttonClose);
 			this.Controls.Add(this.buttonConnect);
-			this.Controls.Add(this.panelStatus);
+			this.Controls.Add(this.panelStatus1);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.comport);
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+			this.MaximizeBox = false;
 			this.Name = "MainForm";
 			this.Text = "motoHat";
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainFormFormClosing);
 			this.Load += new System.EventHandler(this.MainFormLoad);
-			this.panelStatus.ResumeLayout(false);
+			this.panelStatus1.ResumeLayout(false);
+			this.panelStatus2.ResumeLayout(false);
 			this.ResumeLayout(false);
 
 		}
